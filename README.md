@@ -36,16 +36,13 @@ src/
 │   └── store.js
 │
 │── features/
-│   └── books/
-│       ├── bookSlice.js
-│       ├── BookForm.jsx
-│       └── BookList.jsx
+│   └── book/
+│       └── bookSlice.js
 │
-│── firebase/
-│   └── config.js
+│── firebase.js
 │
-│── App.js
-│── index.js
+│── App.jsx
+│── index.jsx
 ```
 
 ---
@@ -71,7 +68,7 @@ src/
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots 
 
 ## Add Book
 ![alt text](<Screenshot 2026-04-03 102807.png>)
