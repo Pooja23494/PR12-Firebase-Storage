@@ -1,16 +1,111 @@
-# React + Vite
+# 📚 Book Store CRUD Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Book Store web application built using **HTML5, Bootstrap, React, Redux Toolkit, and Firebase Firestore**. This app allows users to perform full CRUD (Create, Read, Update, Delete) operations on books with a clean UI and real-time database integration.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* ➕ Add new books
+* 📖 View all books
+* ✏️ Update book details
+* ❌ Delete books
+* 🔄 Real-time data sync with Firebase
+* 📱 Fully responsive UI using Bootstrap
+* ⚡ State management with Redux Toolkit
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology    | Description                   |
+| ------------- | ----------------------------- |
+| HTML5         | Structure of the application  |
+| Bootstrap     | Styling and responsive design |
+| React         | Frontend UI library           |
+| Redux Toolkit | State management              |
+| Firebase      | Backend & Firestore Database  |
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── app/
+│   └── store.js
+│
+│── features/
+│   └── books/
+│       ├── bookSlice.js
+│       ├── BookForm.jsx
+│       └── BookList.jsx
+│
+│── firebase/
+│   └── config.js
+│
+│── App.js
+│── index.js
+```
+
+---
+
+### ➕ Create Book
+
+* Add book title, author, and price
+* Stored in Firebase Firestore
+
+### 📖 Read Books
+
+* Fetch all books from Firestore
+* Display in list/table format
+
+### ✏️ Update Book
+
+* Edit existing book details
+* Update in real-time
+
+### ❌ Delete Book
+
+* Remove book from Firestore
+
+---
+
+## 📸 Screenshots (Optional)
+
+## Add Book
+![alt text](<Screenshot 2026-04-03 102807.png>)
+
+## View Books Data
+![alt text](<Screenshot 2026-04-03 102901.png>)
+
+---
+
+## 🌟 Future Improvements
+
+* 🔐 User Authentication (Login/Signup)
+* 🔍 Search & Filter books
+* 🛒 Add to Cart functionality
+* 🌐 Deploy on Firebase Hosting
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 👩‍💻 Author
+
+**Pooja Patel**
+
+---
+
+⭐ If you like this project, give it a star on GitHub!
